@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="EEE" name="ws.chojnacki.timetable.data.EntityFactoryImplTest" tests="1" time="5.391" timestamp="2009-06-08T18:40:18">
+  <properties>
+    <property name="libs.jsf-1-1_02.maven-pom" value="" />
+    <property name="profiler.settings.sort.results.by.thread.cpu.time" value="false" />
+    <property name="profiler.info.single.file" value="C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable\test\ws\chojnacki\timetable\data\EntityFactoryImplTest.java" />
+    <property name="javac.test.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\appframework-1.0.3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\swing-worker-1.1.jar:build/classes:C:\Program Files\NetBeans 6.5.1\platform9\modules\ext\junit-4.5.jar" />
+    <property name="libs.DataBindingME.src" value="" />
+    <property name="libs.j2me_ant_ext.javadoc" value="" />
+    <property name="org.openide.TopManager.GUI" value="true" />
+    <property name="libs.theme-default.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\defaulttheme.jar" />
+    <property name="profiler.settings.profiling.type" value="8" />
+    <property name="libs.proguard.javadoc" value="" />
+    <property name="libs.junit.javadoc" value="C:\Program Files\NetBeans 6.5.1\java2\docs\junit-3.8.2-api.zip" />
+    <property name="profiler.settings.cpu.quick.filterprofiler.simple.filter.value" value="" />
+    <property name="javac.includes" value="ws/chojnacki/timetable/data/EntityFactoryImplTest.java" />
+    <property name="libs.nsicom-ant-utils.src" value="" />
+    <property name="libs.nokiaS80-ant-utils.javadoc" value="" />
+    <property name="ant.core.lib" value="C:\Program Files\NetBeans 6.5.1\java2\ant\lib\ant.jar" />
+    <property name="libs.swing-app-framework.src" value="" />
+    <property name="libs.jakarta_slide_ant_webdav.javadoc" value="" />
+    <property name="libs.jsf12-support-runtime-modified.src" value="C:\Program Files\NetBeans 6.5.1\visualweb2\docs\dataprovider-src.zip;C:\Program Files\NetBeans 6.5.1\visualweb2\docs\jsfcl-src.zip;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\jsf12\wyswyg-appbase-1.0.2-sources.jar" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="libs.toplink.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\toplink\toplink-essentials.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\toplink\toplink-essentials-agent.jar" />
+    <property name="user.dir" value="C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable" />
+    <property name="libs.theme-default-green.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\defaulttheme-green.jar" />
+    <property name="libs.hibernate-persistence.javadoc" value="" />
+    <property name="libs.JMUnit4CLDC10.javadoc" value="C:\Program Files\NetBeans 6.5\mobility8\modules\docs\jmunit-1.2.1-api.zip" />
+    <property name="java.vm.version" value="11.0-b16" />
+    <property name="libs.DataBindingME.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\netbeans_databindingme.jar" />
+    <property name="libs.jstl11.maven-pom" value="" />
+    <property name="profiler.settings.sampling.interval" value="10" />
+    <property name="profiler.session.port.no" value="5140" />
+    <property name="libs.nsicom-ant-utils.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\ant\nblib\org-netbeans-modules-j2me-cdc-project-nsicom.jar" />
+    <property name="libs.MySQLDriver.classpath" value="C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\mysql-connector-java-5.1.6-bin.jar" />
+    <property name="libs.facelets-1-1-14-el-api.maven-pom" value="" />
+    <property name="libs.woodstock-components-modified.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\webui-jsf.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\json-2.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\jsf-extensions-common-0.1.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\jsf-extensions-dynamic-faces-0.1.jar" />
+    <property name="libs.jstl11.src" value="" />
+    <property name="javadoc.notree" value="false" />
+    <property name="libs.jsf-1-1_02.src" value="" />
+    <property name="libs.DataBindingME-PIM.maven-pom" value="" />
+    <property name="libs.hibernate-support.maven-pom" value="" />
+    <property name="libs.hibernate-support.javadoc" value="" />
+    <property name="libs.exceptionhandler-runtime.maven-pom" value="" />
+    <property name="libs.el-api.maven-pom" value="" />
+    <property name="libs.NetBeans MIDP Components.maven-pom" value="" />
+    <property name="jdk.home" value="C:\Program Files\Java\jdk1.6.0_11" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="libs.theme-default-green.runtime" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\defaulttheme-green.jar" />
+    <property name="sun.os.patch.level" value="Dodatek Service Pack 3" />
+    <property name="profiler.info.oomeprotection" value="yes" />
+    <property name="libs.theme-default-gray.runtime" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\defaulttheme-gray.jar" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="libs.semc-ant-utils.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\org-netbeans-modules-j2me-cdc-project-semc.jar" />
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
+    <property name="libs.jsf-extensions.maven-pom" value="" />
+    <property name="libs.jdbcsupport-runtime.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\sqlx.jar" />
+    <property name="libs.nokiadeployment.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\org-netbeans-modules-mobility-deployment-nokia.jar" />
+    <property name="have.tests" value="true" />
+    <property name="libs.nokiaS80-ant-utils.maven-pom" value="" />
+    <property name="libs.jsf-1-2_09.javadoc" value="" />
+    <property name="libs.jdbcsupport-designtime.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\sqlx.jar" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="libs.nb_svg_midp_components.src" value="C:\Program Files\NetBeans 6.5\mobility8\sources\nb_svg_midp_components-src.zip" />
+    <property name="libs.facelets-icefaces-172.maven-pom" value="" />
+    <property name="libs.NetBeans MIDP Components WMA.src" value="C:\Program Files\NetBeans 6.5\mobility8\sources\netbeans_midp_components_wma-src.zip" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="os.name" value="Windows XP" />
+    <property name="libs.jsf-1-2_12.javadoc" value="" />
+    <property name="libs.beans-binding.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\beansbinding-1.2.1.jar" />
+    <property name="libs.DataBindingME-SVG.javadoc" value="C:\Program Files\NetBeans 6.5\mobility8\modules\docs\netbeans_databindingme_svg-api.zip" />
+    <property name="libs.jsf-1-2_12.maven-pom" value="" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="libs.jstl.classpath" value="C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jstl.jar" />
+    <property name="rave.build" value="thresher-fcs" />
+    <property name="libs.ws-icefaces-runtime-172.maven-pom" value="" />
+    <property name="profiler.info.javaPlatform" value="default_platform" />
+    <property name="profiler.settings.profilingpoints.enabled" value="true" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="libs.Comet-GlassFish-V3.classpath" value="C:\Documents and Settings\Pawel\GlassFish_V3_Prelude\glassfish\modules\grizzly-module.jar" />
+    <property name="libs.nsicom-ant-utils.javadoc" value="" />
+    <property name="libs.jsf-1-1_02.javadoc" value="" />
+    <property name="profiler.settings.instr.scheme" value="3" />
+    <property name="libs.jaxb.maven-pom" value="" />
+    <property name="profiler.info.project.dir" value="C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable" />
+    <property name="os.arch" value="x86" />
+    <property name="user.name" value="Pawel" />
+    <property name="libs.facelets-1-1-14.maven-pom" value="" />
+    <property name="libs.jsf12.javadoc" value="C:\Program Files\NetBeans 6.5.1\enterprise5\docs\javaee5-doc-api.zip" />
+    <property name="manifest.available+main.class" value="true" />
+    <property name="libs.swing-layout.maven-pom" value="" />
+    <property name="build.classes.dir" value="build/classes" />
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="libs.jaxws21.javadoc" value="C:\Program Files\NetBeans 6.5.1\java2\docs\jaxws-2_1-api-doc.zip" />
+    <property name="libs.facelets-icefaces-180.maven-pom" value="" />
+    <property name="includes" value="**" />
+    <property name="user.country" value="PL" />
+    <property name="manifest.file" value="manifest.mf" />
+    <property name="libs.jstl11.javadoc" value="C:\Program Files\NetBeans 6.5.1\enterprise5\docs\javaee5-doc-api.zip" />
+    <property name="libs.JMUnit4CLDC11.src" value="" />
+    <property name="javadoc.encoding" value="UTF-8" />
+    <property name="javac.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\appframework-1.0.3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\swing-worker-1.1.jar" />
+    <property name="libs.jsfsupport-designtime.javadoc" value="C:\Program Files\NetBeans 6.5.1\visualweb2\docs\appbase-doc.zip;C:\Program Files\NetBeans 6.5.1\visualweb2\docs\dataprovider-doc.zip;C:\Program Files\NetBeans 6.5.1\visualweb2\docs\jsfcl-doc.zip" />
+    <property name="libs.bdj-ant-utils.src" value="" />
+    <property name="libs.icefaces-jsf12-bm.maven-pom" value="" />
+    <property name="debug-transport" value="dt_shmem" />
+    <property name="netbeans.system_http_non_proxy_hosts" value="" />
+    <property name="netbeans.home" value="C:\Program Files\NetBeans 6.5.1\platform9" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="application.desc" value="A simple java desktop application based on Swing Application Framework" />
+    <property name="org.netbeans.lib.profiler.servletTracking" value="false" />
+    <property name="libs.ejb3-persistence.src" value="" />
+    <property name="libs.nokiaS80-ant-utils.src" value="" />
+    <property name="libs.jdbcsupport-runtime.javadoc" value="" />
+    <property name="libs.cdc-pp-awt-layout.javadoc" value="" />
+    <property name="libs.j2me_ant_ext.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\org-netbeans-modules-mobility-antext.jar;C:\Program Files\NetBeans 6.5\ide10\modules\org-netbeans-modules-classfile.jar" />
+    <property name="libs.icefaces-runtime-172.maven-pom" value="" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_11\jre\lib\endorsed" />
+    <property name="netbeans.dynamic.classpath" value="C:\Program Files\NetBeans 6.5.1\platform9\core\core.jar;C:\Program Files\NetBeans 6.5.1\platform9\core\org-openide-filesystems.jar;C:\Program Files\NetBeans 6.5.1\platform9\core\locale\core_ja.jar;C:\Program Files\NetBeans 6.5.1\platform9\core\locale\core_pt_BR.jar;C:\Program Files\NetBeans 6.5.1\platform9\core\locale\core_zh_CN.jar;C:\Program Files\NetBeans 6.5.1\platform9\core\locale\org-openide-filesystems_ja.jar;C:\Program Files\NetBeans 6.5.1\platform9\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files\NetBeans 6.5.1\platform9\core\locale\org-openide-filesystems_zh_CN.jar;C:\Program Files\NetBeans 6.5.1\nb6.5\core\org-netbeans-upgrader.jar;C:\Program Files\NetBeans 6.5.1\nb6.5\core\locale\core_nb.jar;C:\Program Files\NetBeans 6.5.1\nb6.5\core\locale\core_nb_ja.jar;C:\Program Files\NetBeans 6.5.1\nb6.5\core\locale\core_nb_pt_BR.jar;C:\Program Files\NetBeans 6.5.1\nb6.5\core\locale\core_nb_zh_CN.jar;C:\Program Files\NetBeans 6.5.1\nb6.5\core\locale\org-netbeans-upgrader_ja.jar;C:\Program Files\NetBeans 6.5.1\nb6.5\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Program Files\NetBeans 6.5.1\nb6.5\core\locale\org-netbeans-upgrader_zh_CN.jar" />
+    <property name="libs.cdc-agui-swing-layout.maven-pom" value="" />
+    <property name="profiler.settings.instrumentation.filter.selectedprofiler.simple.filter.type" value="2" />
+    <property name="libs.cdc-pp-awt-layout.src" value="C:\Program Files\NetBeans 6.5\mobility8\sources\cdc-pp-awt-layout-src.zip" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="libs.jakarta_slide_ant_webdav.src" value="" />
+    <property name="libs.sjmc-ant-utils.maven-pom" value="" />
+    <property name="libs.JMUnit4CLDC10.maven-pom" value="" />
+    <property name="libs.hibernate-persistence.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\antlr-2.7.6.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\asm.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\asm-attrs.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\cglib-2.1.3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\commons-collections-2.1.1.jar;C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\commons-logging-1.1.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\dom4j-1.6.1.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\ehcache-1.2.3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\jdbc2_0-stdext.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\jta.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\hibernate3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\hibernate-tools.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\hibernate-annotations.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\hibernate-commons-annotations.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\hibernate-entitymanager.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\javassist.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\ejb3-persistence.jar" />
+    <property name="libs.jaxws21.src" value="" />
+    <property name="application.title" value="Basic Application Example" />
+    <property name="libs.swing-app-framework.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\appframework-1.0.3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\swing-worker-1.1.jar" />
+    <property name="libs.icefaces-runtime-180.javadoc" value="" />
+    <property name="libs.jakarta_slide_ant_webdav.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\commons-httpclient-3.0.1.jar;C:\Program Files\NetBeans 6.5\ide10\modules\ext\commons-logging-1.1.jar;C:\Program Files\NetBeans 6.5\mobility8\modules\ext\jdom-1.0.jar;C:\Program Files\NetBeans 6.5\mobility8\modules\ext\jakarta-slide-webdavlib-2.1.jar;C:\Program Files\NetBeans 6.5\mobility8\modules\ext\jakarta-slide-ant-webdav-2.1.jar" />
+    <property name="profiler.settings.override.jvm.args" value="" />
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="libs.JMUnit4CLDC10.src" value="" />
+    <property name="javac.debug" value="true" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="file.separator" value="\" />
+    <property name="libs.ActiveSync.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\nbactivesync-5.0.jar" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="netbeans.buildnumber" value="200903060201" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="user.variant" value="" />
+    <property name="libs.icefaces-runtime-180.maven-pom" value="" />
+    <property name="libs.webui-runtime.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\webui.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\commons-fileupload-1.0.jar" />
+    <property name="libs.jsf-1-2_12.src" value="" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="libs.junit.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\junit-3.8.2.jar" />
+    <property name="libs.facelets-1-1-14-myfaces.javadoc" value="" />
+    <property name="profiler.settings.obj.alloc.stack.sampling.interval" value="10" />
+    <property name="libs.jaxb.javadoc" value="" />
+    <property name="libs.woodstock-theme-default.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\webui-jsf-suntheme.jar" />
+    <property name="profiler.settings.cpu.quick.filterprofiler.filter.type" value="profiler.simple.filter" />
+    <property name="javac.includes.binary" value="C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable\build\test\classes\ws\chojnacki\timetable\data\EntityFactoryImplTest.class" />
+    <property name="ant.home" value="C:\Program Files\NetBeans 6.5.1\java2\ant" />
+    <property name="libs.junit_4.src" value="C:\Program Files\NetBeans 6.5.1\java2\docs\junit-4.5-src.jar" />
+    <property name="libs.ricoh-ant-utils.maven-pom" value="" />
+    <property name="libs.icefaces-jsf12-runtime-support.javadoc" value="" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_11\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PC Connectivity Solution\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;c:\altera\81\quartus\bin;C:\Program Files\Haskell\bin;C:\ghc\ghc-6.10.1\bin;C:\adabas\bin;C:\adabas\pgm" />
+    <property name="javadoc.author" value="false" />
+    <property name="profiler.settings.run.gc.on.get.results.in.memory.profiling" value="true" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="profiler.settings.instrumentation.filter.selectedprofiler.simple.filter.value" value="ws.chojnacki.timetable.data. ws.chojnacki.timetable. ws.chojnacki.timetable.data.refs. ws.chojnacki.timetable.data.annotation. ws.chojnacki.timetable.data.utils. ws.chojnacki.timetable.data.container." />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="profiler.session.jvm.args" value="" />
+    <property name="basedir" value="C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable" />
+    <property name="libs.ActiveSync.src" value="" />
+    <property name="jar.compress" value="false" />
+    <property name="libs.NetBeans MIDP Components PDA.src" value="C:\Program Files\NetBeans 6.5\mobility8\sources\netbeans_midp_components_pda-src.zip" />
+    <property name="libs.jsf-1-2_09.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\jsf-1-2_09\jsf-api.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\jsf-1-2_09\jsf-impl.jar" />
+    <property name="libs.jstl11.classpath" value="C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\standard.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jstl.jar" />
+    <property name="libs.facelets-1-1-14-el-api.javadoc" value="" />
+    <property name="path.separator" value=";" />
+    <property name="libs.jsf12-support-runtime-modified.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\dataprovider.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\sqlx.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\jsfcl.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\jsf12\wyswyg-appbase.jar" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="libs.semc-ant-utils.javadoc" value="" />
+    <property name="libs.jaxws21.classpath" value="C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\jaxb\api\jsr173_api.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\FastInfoset.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\http.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\api\jaxws-api.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\jaxws-rt.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\jaxws-tools.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\api\jsr181-api.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\api\jsr250-api.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\mimepull.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\resolver.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\api\saaj-api.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\saaj-impl.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\sjsxp.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\stax-ex.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\streambuffer.jar" />
+    <property name="compile.on.save" value="true" />
+    <property name="user.language" value="pl" />
+    <property name="libs.dojo.scriptpath" value="C:\Program Files\NetBeans 6.5.1\webcommon1\modules\ext\javascript\dojo-1.1.1.zip" />
+    <property name="libs.spring-framework.classpath" value="C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\commons-logging-1.1.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\spring\spring-2.5.jar" />
+    <property name="profiler.settings.instrumentation.filter.selectedprofiler.filter.type" value="profiler.simple.filter" />
+    <property name="profiler.info.oomeprotection.dumppath" value="C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable\nbproject\private\profiler" />
+    <property name="application.vendor" value="Sun Microsystems Inc." />
+    <property name="profiler.settings.thread.cpu.timer.on" value="false" />
+    <property name="manifest.available" value="true" />
+    <property name="run.test.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\appframework-1.0.3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\swing-worker-1.1.jar:build/classes:C:\Program Files\NetBeans 6.5.1\platform9\modules\ext\junit-4.5.jar:build/test/classes" />
+    <property name="useJavaUtilZip" value="true" />
+    <property name="libs.swing-layout.javadoc" value="C:\Program Files\NetBeans 6.5.1\platform9\docs\swing-layout-1.0.3-doc.zip" />
+    <property name="libs.swing-app-framework.javadoc" value="C:\Program Files\NetBeans 6.5.1\java2\docs\appframework-1.0.3-doc.zip" />
+    <property name="libs.ejb3-persistence.maven-pom" value="" />
+    <property name="libs.proguard.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\external\proguard\proguard4.2.jar" />
+    <property name="libs.DataBindingME-SVG.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\netbeans_databindingme_svg.jar" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|EEE" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="java.class.version" value="50.0" />
+    <property name="libs.cdc-ant-utils.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\org-netbeans-modules-j2me-cdc-project.jar" />
+    <property name="profiler.settings.instrumentation.root.methods.size" value="1" />
+    <property name="netbeans.system_http_proxy" value="DIRECT" />
+    <property name="libs.NetBeans MIDP Components WMA.maven-pom" value="" />
+    <property name="user.properties.file" value="C:\Documents and Settings\Pawel\.netbeans\6.5\build.properties" />
+    <property name="profiler.settings.instrumentation.marker.methods.size" value="0" />
+    <property name="profiler.settings.istrumentation.root.methods-0" value="ws.chojnacki.timetable.data.EntityFactoryImplTest,&lt;all&gt;," />
+    <property name="libs.EclipseLink-GlassFish-V3.classpath" value="C:\Documents and Settings\Pawel\GlassFish_V3_Prelude\glassfish\modules\org.eclipse.persistence.antlr.jar;C:\Documents and Settings\Pawel\GlassFish_V3_Prelude\glassfish\modules\org.eclipse.persistence.asm.jar;C:\Documents and Settings\Pawel\GlassFish_V3_Prelude\glassfish\modules\org.eclipse.persistence.core.jar;C:\Documents and Settings\Pawel\GlassFish_V3_Prelude\glassfish\modules\org.eclipse.persistence.jpa.jar;C:\Documents and Settings\Pawel\GlassFish_V3_Prelude\glassfish\modules\org.eclipse.persistence.oracle.jar;C:\Documents and Settings\Pawel\GlassFish_V3_Prelude\glassfish\modules\javax.persistence.jar" />
+    <property name="libs.spring-framework.src" value="" />
+    <property name="libs.javac-api.maven-pom" value="" />
+    <property name="libs.facelets-1-1-14-myfaces.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\facelets-1.1.14\lib\myfaces-all.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\facelets-1.1.14\lib\commons-beanutils.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\facelets-1.1.14\lib\commons-collections.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\facelets-1.1.14\lib\commons-digester.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\facelets-1.1.14\lib\commons-el.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\facelets-1.1.14\lib\commons-logging.jar" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="libs.JWSAntTasks.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="libs.ws-icefaces-runtime-172.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.7.2\just-ice.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.7.2\icefaces-comps.jar" />
+    <property name="libs.ant-contrib.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\ant-contrib-1.0b3.jar" />
+    <property name="libs.jstl.src" value="" />
+    <property name="libs.icefaces-jsf12-runtime-support.maven-pom" value="" />
+    <property name="libs.jsfsupport-designtime.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\jsfcl.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\appbase.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\dataprovider.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\sqlx.jar" />
+    <property name="libs.scriptaculous.scriptpath" value="C:\Program Files\NetBeans 6.5\webcommon1\modules\ext\javascript\scriptaculous-js-1.8.1.zip" />
+    <property name="version-output" value="java version &quot;1.6" />
+    <property name="ant.file.TimeTable-impl" value="C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable\nbproject\build-impl.xml" />
+    <property name="javadoc.preview" value="true" />
+    <property name="nbplatform.default.harness.dir" value="C:\Program Files\NetBeans 6.5.1/harness" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_11\jre" />
+    <property name="libs.ricoh-ant-utils.src" value="" />
+    <property name="libs.spring-webmvc.src" value="" />
+    <property name="libs.icefaces-jsf12-designtime-180.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\dt\icefaces-dt.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\dt\jsf12\icefaces-comps.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\dt\jsf12\icefaces-comps-dt.jar" />
+    <property name="libs.ant-contrib.javadoc" value="" />
+    <property name="debug.test.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\appframework-1.0.3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\swing-worker-1.1.jar:build/classes:C:\Program Files\NetBeans 6.5.1\platform9\modules\ext\junit-4.5.jar:build/test/classes" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="libs.webui-designtime.src" value="C:\Program Files\NetBeans 6.5.1\visualweb2\docs\webui-src.zip" />
+    <property name="org.openide.TopManager" value="org.netbeans.core.NonGui" />
+    <property name="libs.el-api.javadoc" value="" />
+    <property name="libs.savaje-ant-utils.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\org-netbeans-modules-j2me-cdc-project-savaje.jar" />
+    <property name="libs.toplink.maven-pom" value="" />
+    <property name="libs.DataBindingME.maven-pom" value="" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="libs.exceptionhandler-runtime.javadoc" value="" />
+    <property name="libs.JMUnit4CLDC11.javadoc" value="C:\Program Files\NetBeans 6.5\mobility8\modules\docs\jmunit-1.2.1-api.zip" />
+    <property name="profiler.settings.instrumentation.filter.selectedprofiler.simple.filter.name" value="Profile only project classes" />
+    <property name="libs.nsicom-ant-utils.maven-pom" value="" />
+    <property name="libs.jsfsupport-runtime.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\jsfcl.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\appbase.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\dataprovider.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\sqlx.jar" />
+    <property name="libs.MySQLDriver.maven-pom" value="" />
+    <property name="libs.icefaces-jsf11-runtime-support.maven-pom" value="" />
+    <property name="libs.ws-icefaces-runtime-180.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\just-ice.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\icefaces-comps.jar" />
+    <property name="libs.Comet-GlassFish-V3.src" value="" />
+    <property name="libs.savaje-ant-utils.src" value="" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|EEE" />
+    <property name="libs.junit_4.javadoc" value="C:\Program Files\NetBeans 6.5.1\java2\docs\junit-4.5-api.zip" />
+    <property name="libs.spring-webmvc.javadoc" value="" />
+    <property name="libs.toplink.src" value="" />
+    <property name="libs.cdc-pp-awt-layout.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\cdc-pp-awt-layout.jar" />
+    <property name="profiler.settigns.ispreset" value="true" />
+    <property name="profile.class" value="ws.chojnacki.timetable.data.EntityFactoryImplTest" />
+    <property name="libs.webui.javadoc" value="C:\Program Files\NetBeans 6.5.1\visualweb2\docs\webui-doc.zip" />
+    <property name="libs.icefaces-jsf12-runtime-support.src" value="" />
+    <property name="libs.facelets-1-1-14.javadoc" value="" />
+    <property name="libs.cdc-agui-swing-layout.src" value="C:\Program Files\NetBeans 6.5\mobility8\sources\cdc-agui-swing-layout-src.zip" />
+    <property name="libs.jsf12-support.javadoc" value="C:\Program Files\NetBeans 6.5.1\visualweb2\docs\appbase-doc.zip;C:\Program Files\NetBeans 6.5.1\visualweb2\docs\dataprovider-doc.zip;C:\Program Files\NetBeans 6.5.1\visualweb2\docs\jsfcl-doc.zip" />
+    <property name="run.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\appframework-1.0.3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\swing-worker-1.1.jar:build/classes" />
+    <property name="libs.hibernate-support.src" value="" />
+    <property name="libs.icefaces-jsf12-bm.src" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\jsf12\icefaces-bm-1.8.0-sources.jar" />
+    <property name="libs.theme-default.runtime" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\defaulttheme.jar" />
+    <property name="libs.JMUnit4CLDC11.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\jmunit4cldc11-1.2.1.jar" />
+    <property name="libs.nb_svg_midp_components.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\nb_svg_midp_components.jar" />
+    <property name="profiler.settings.cpu.exclude.wait.time" value="true" />
+    <property name="profiler.settings.override" value="false" />
+    <property name="libs.NetBeans MIDP Components PDA.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\netbeans_midp_components_pda.jar" />
+    <property name="libs.semc-ant-utils.maven-pom" value="" />
+    <property name="profiler.settings.cpu.quick.filterprofiler.simple.filter.type" value="1" />
+    <property name="libs.jdbcsupport-runtime.maven-pom" value="" />
+    <property name="libs.nokiadeployment.maven-pom" value="" />
+    <property name="profiler.session.args" value="" />
+    <property name="libs.NetBeans MIDP Components.javadoc" value="C:\Program Files\NetBeans 6.5\mobility8\modules\docs\netbeans_midp_components_basic-api.zip" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="javac.deprecation" value="false" />
+    <property name="javadoc.use" value="true" />
+    <property name="libs.jdbcsupport-runtime.src" value="" />
+    <property name="libs.jdbcsupport-designtime.maven-pom" value="" />
+    <property name="libs.theme-default-gray.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\defaulttheme-gray.jar" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="maven.mode.standalone" value="true" />
+    <property name="libs.spring-webmvc.classpath" value="C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\spring\spring-webmvc-2.5.jar" />
+    <property name="javac.compilerargs" value="" />
+    <property name="ant.file" value="C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable\build.xml" />
+    <property name="libs.woodstock-components-modified.src" value="C:\Program Files\NetBeans 6.5.1\visualweb2\docs\webui-jsf-src.zip" />
+    <property name="libs.beans-binding.maven-pom" value="" />
+    <property name="libs.bdj-ant-utils.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\org-netbeans-modules-j2me-cdc-project-bdj.jar;C:\Program Files\NetBeans 6.5\mobility8\modules\ext\security.jar;C:\Program Files\NetBeans 6.5\mobility8\modules\ext\bdjo.jar;C:\Program Files\NetBeans 6.5\mobility8\modules\ext\bcprov-jdk15-139.jar" />
+    <property name="libs.jsf12.classpath" value="C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\commons-beanutils.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\commons-collections.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\commons-digester.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\commons-logging.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\jsf-api.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\jsf-impl.jar" />
+    <property name="sun.awt.exception.handler" value="org.netbeans.core.startup.TopLogging$AWTHandler" />
+    <property name="libs.jstl.maven-pom" value="" />
+    <property name="libs.ws-icefaces-runtime-180.javadoc" value="" />
+    <property name="libs.beans-binding.src" value="" />
+    <property name="libs.Comet-GlassFish-V3.maven-pom" value="" />
+    <property name="libs.NetBeans MIDP Components PDA.javadoc" value="C:\Program Files\NetBeans 6.5\mobility8\modules\docs\netbeans_midp_components_pda-api.zip" />
+    <property name="libs.DataBindingME-PIM.javadoc" value="C:\Program Files\NetBeans 6.5\mobility8\modules\docs\netbeans_databindingme_pim-api.zip" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="libs.webui.src" value="C:\Program Files\NetBeans 6.5.1\visualweb2\docs\webui-src.zip" />
+    <property name="libs.swing-layout.src" value="C:\Program Files\NetBeans 6.5.1\platform9\docs\swing-layout-1.0.3-src.zip" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="libs.j2me_ant_ext.src" value="" />
+    <property name="libs.ws-icefaces-runtime-180.src" value="" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="libs.ws-icefaces-runtime-172.src" value="" />
+    <property name="netbeans.user" value="C:\Documents and Settings\Pawel\.netbeans\6.5" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="profiler.session.java.architecture" value="32" />
+    <property name="libs.ricoh-ant-utils.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\org-netbeans-modules-j2me-cdc-project-ricoh.jar;C:\Program Files\NetBeans 6.5\mobility8\modules\ext\RicohAntTasks-2.0.jar;C:\Program Files\NetBeans 6.5\mobility8\modules\ext\commons-httpclient-3.0.jar;C:\Program Files\NetBeans 6.5\ide10\modules\ext\commons-logging-1.1.jar;C:\Program Files\NetBeans 6.5\mobility8\modules\ext\commons-codec-1.3.jar" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\Pawel\USTAWI~1\Temp\" />
+    <property name="libs.prototype.scriptpath" value="C:\Program Files\NetBeans 6.5.1\webcommon1\modules\ext\javascript\prototype-1.6.0.2.zip" />
+    <property name="profiler.settings.instrument.spawned.threads" value="false" />
+    <property name="jspc.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\ant\lib\ant.jar:C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\servlet2.5-jsp2.1-api.jar:${j2ee.platform.classpath}:C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\glassfish-jspparser-2.0.jar:C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\glassfish-logging-2.0.jar:C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\commons-logging-1.1.jar:C:\Program Files\NetBeans 6.5.1\java2\ant\lib\ant-launcher.jar" />
+    <property name="libs.jsf-extensions.src" value="" />
+    <property name="libs.jsf-1-1_02.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\jsf-1-1_02\jsf-api.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\jsf-1-1_02\jsf-impl.jar" />
+    <property name="have.sources" value="true" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_11\jre\bin" />
+    <property name="libs.woodstock-theme-default.runtime" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\webui-jsf-suntheme.jar" />
+    <property name="debug.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\appframework-1.0.3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\swing-worker-1.1.jar:build/classes" />
+    <property name="libs.icefaces-jsf11-runtime-support.javadoc" value="" />
+    <property name="javadoc.private" value="false" />
+    <property name="test.src.dir" value="test" />
+    <property name="libs.bdj-ant-utils.javadoc" value="" />
+    <property name="libs.Comet-GlassFish-V3.javadoc" value="" />
+    <property name="meta.inf.dir" value="src/META-INF" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="libs.DataBindingME-SVG.src" value="" />
+    <property name="dist.jar" value="dist/TimeTable.jar" />
+    <property name="profiler.settings.code.region.cpu.res.buf.size" value="1000" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="profiler.info.jvmargs" value=" -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=&quot;C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable\nbproject\private\profiler&quot; " />
+    <property name="ant.project.name" value="TimeTable" />
+    <property name="libs.jdbcsupport-designtime.javadoc" value="" />
+    <property name="libs.facelets-icefaces-180.src" value="" />
+    <property name="libs.facelets-1-1-14-el-api.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\facelets-1.1.14\lib\el-api-1.0.jar" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="libs.j2me_ant_ext.maven-pom" value="" />
+    <property name="libs.facelets-icefaces-172.src" value="" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="profiler.settings.n.profiled.threads.limit" value="32" />
+    <property name="libs.ActiveSync.javadoc" value="" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="libs.DataBindingME-PIM.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\netbeans_databindingme_pim.jar" />
+    <property name="libs.hibernate-support.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\antlr-2.7.6.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\asm.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\asm-attrs.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\cglib-2.1.3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\commons-collections-2.1.1.jar;C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\commons-logging-1.1.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\dom4j-1.6.1.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\ehcache-1.2.3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\jdbc2_0-stdext.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\jta.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\hibernate3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\hibernate-tools.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\hibernate-annotations.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\hibernate-commons-annotations.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\hibernate-entitymanager.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\javassist.jar" />
+    <property name="libs.exceptionhandler-runtime.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\errorhandler.jar" />
+    <property name="user.home" value="C:\Documents and Settings\Pawel" />
+    <property name="libs.el-api.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\el-api.jar" />
+    <property name="debug-args-line" value="-Xdebug" />
+    <property name="libs.NetBeans MIDP Components.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\netbeans_midp_components_basic.jar" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="libs.hibernate-persistence.maven-pom" value="" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="libs.webui.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\webui.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\commons-fileupload-1.0.jar" />
+    <property name="libs.swing-app-framework.maven-pom" value="" />
+    <property name="libs.yahooui.scriptpath" value="C:\Program Files\NetBeans 6.5.1\webcommon1\modules\ext\javascript\yui-2.5.2.zip" />
+    <property name="libs.NetBeans MIDP Components WMA.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\netbeans_midp_components_wma.jar" />
+    <property name="libs.jakarta_slide_ant_webdav.maven-pom" value="" />
+    <property name="libs.EclipseLink-GlassFish-V3.javadoc" value="C:\Program Files\NetBeans 6.5.1\enterprise5\docs\javaee5-doc-api.zip" />
+    <property name="profiler.settings.threads.monitoring.enabled" value="false" />
+    <property name="libs.woodstock-components.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\webui-jsf.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\commons-fileupload-1.0.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\json-2.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\jsf-extensions-common-0.1.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\jsf-extensions-dynamic-faces-0.1.jar" />
+    <property name="libs.sjmc-ant-utils.src" value="" />
+    <property name="libs.jsf-extensions.javadoc" value="" />
+    <property name="libs.jsf-extensions.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\jsf-extensions-dynamic-faces-0.1.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\jsf-extensions-common-0.1.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\commons-logging.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\shale-remoting-1.0.4.jar" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="libs.cdc-agui-swing-layout.javadoc" value="" />
+    <property name="libs.jdbcsupport-designtime.src" value="" />
+    <property name="libs.javac-api.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\javac-api-nb-7.0-b07.jar" />
+    <property name="java.version" value="1.6.0_11" />
+    <property name="libs.nokiaS80-ant-utils.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\org-netbeans-modules-j2me-cdc-project-nokiaS80.jar" />
+    <property name="javadoc.version" value="false" />
+    <property name="libs.icefaces-jsf12-designtime-172.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.7.2\dt\icefaces-dt.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.7.2\dt\jsf12\icefaces-comps.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.7.2\dt\jsf12\icefaces-comps-dt.jar" />
+    <property name="libs.NetBeans MIDP Components WMA.javadoc" value="C:\Program Files\NetBeans 6.5\mobility8\modules\docs\netbeans_midp_components_wma-api.zip" />
+    <property name="libs.MySQLDriver.javadoc" value="" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="source.encoding" value="UTF-8" />
+    <property name="libs.ActiveSync.maven-pom" value="" />
+    <property name="libs.facelets-icefaces-172.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.7.2\icefaces-facelets.jar" />
+    <property name="ant.file.TimeTable" value="C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable\build.xml" />
+    <property name="libs.junit.maven-pom" value="" />
+    <property name="libs.jsf12-support.src" value="C:\Program Files\NetBeans 6.5.1\visualweb2\docs\appbase-src.zip;C:\Program Files\NetBeans 6.5.1\visualweb2\docs\dataprovider-src.zip;C:\Program Files\NetBeans 6.5.1\visualweb2\docs\jsfcl-src.zip" />
+    <property name="libs.icefaces-jsf12-bm.javadoc" value="" />
+    <property name="libs.facelets-icefaces-180.javadoc" value="" />
+    <property name="libs.woodstock-components-modified.javadoc" value="C:\Program Files\NetBeans 6.5.1\visualweb2\docs\webui-jsf-doc.zip;C:\Program Files\NetBeans 6.5.1\visualweb2\docs\webui-jsf-tld.zip" />
+    <property name="libs.jsf-1-2_12.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\jsf-1-2_12\jsf-api.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\jsf-1-2_12\jsf-impl.jar" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="profiler.info.jvm" value="C:\Program Files\Java\jdk1.6.0_11\bin\java.exe" />
+    <property name="libs.jaxb.src" value="" />
+    <property name="libs.cdc-ant-utils.src" value="" />
+    <property name="work.dir" value="C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable" />
+    <property name="libs.jaxb.classpath" value="C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\jaxb\api\jsr173_api.jar" />
+    <property name="libs.facelets-1-1-14.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\facelets-1.1.14\jsf-facelets.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\facelets-1.1.14\lib\el-impl-1.0.jar" />
+    <property name="do.depend" value="false" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="libs.swing-layout.classpath" value="C:\Program Files\NetBeans 6.5.1\platform9\modules\ext\swing-layout-1.0.3.jar" />
+    <property name="libs.jsf-1-2_09.maven-pom" value="" />
+    <property name="javac.source" value="1.5" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="profiler.info.dir" value="C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable" />
+    <property name="line.separator" value="
+" />
+    <property name="libs.proguard.src" value="" />
+    <property name="profiler.session.working.dir" value="C:\Program Files\NetBeans 6.5.1" />
+    <property name="libs.hibernate-persistence.src" value="" />
+    <property name="libs.icefaces-jsf11-runtime-support.classpath" value="C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\commons-beanutils.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\commons-collections.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\commons-digester.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\commons-logging.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\commons-fileupload.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\backport-util-concurrent.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\krysalis-jCharts-1.0.0-alpha-1.jar" />
+    <property name="profiler.settings.cpu.quick.filterprofiler.simple.filter.name" value="Quick filter..." />
+    <property name="libs.nb_svg_midp_components.javadoc" value="C:\Program Files\NetBeans 6.5\mobility8\modules\docs\nb_svg_midp_components-api.zip" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="libs.facelets-icefaces-180.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\icefaces-facelets.jar" />
+    <property name="libs.cdc-ant-utils.javadoc" value="" />
+    <property name="libs.jsf12-support.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\jsfcl.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\appbase.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\dataprovider.jar;C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\sqlx.jar" />
+    <property name="libs.spring-framework.maven-pom" value="" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_11\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_11\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_11\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_11\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_11\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_11\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_11\jre\classes;C:\Program Files\NetBeans 6.5.1\profiler3\lib/jfluid-server.jar;C:\Program Files\NetBeans 6.5.1\profiler3\lib/jfluid-server-15.jar" />
+    <property name="javac.target" value="1.5" />
+    <property name="libs.woodstock-components.javadoc" value="C:\Program Files\NetBeans 6.5.1\visualweb2\docs\webui-jsf-doc.zip;C:\Program Files\NetBeans 6.5.1\visualweb2\docs\webui-jsf-tld.zip" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="src.dir" value="src" />
+    <property name="libs.icefaces-jsf12-bm.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\jsf12\icefaces-bm.jar" />
+    <property name="libs.icefaces-jsf11-runtime-support.src" value="" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="profiler.settings.instrument.method.invoke" value="true" />
+    <property name="libs.proguard.maven-pom" value="" />
+    <property name="libs.DataBindingME-SVG.maven-pom" value="" />
+    <property name="libs.jsf12.src" value="" />
+    <property name="libs.nokiadeployment.src" value="" />
+    <property name="libs.savaje-ant-utils.javadoc" value="" />
+    <property name="nbplatform.default.netbeans.dest.dir" value="C:\Program Files\NetBeans 6.5.1" />
+    <property name="libs.icefaces-runtime-172.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.7.2\icefaces.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.7.2\icefaces-comps.jar" />
+    <property name="libs.cdc-ant-utils.maven-pom" value="" />
+    <property name="jspctask.classpath" value="C:\Program Files\NetBeans 6.5.1\enterprise5\ant\extra\jspcompile.jar" />
+    <property name="profiler.settings.override.working.dir" value="" />
+    <property name="libs.cdc-agui-swing-layout.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\cdc-agui-swing-layout.jar" />
+    <property name="profiler.settings.istrument.getter.setter.methods" value="false" />
+    <property name="libs.webui-designtime.classpath" value="C:\Program Files\NetBeans 6.5.1\visualweb2\modules\ext\webui.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\commons-fileupload-1.0.jar" />
+    <property name="dist.dir" value="dist" />
+    <property name="profiler.session.class.name" value="ws.chojnacki.timetable.TimeTableApp" />
+    <property name="profiler.settings.profile.underlying.framework" value="false" />
+    <property name="libs.facelets-1-1-14-myfaces.maven-pom" value="" />
+    <property name="libs.EclipseLink-GlassFish-V3.maven-pom" value="" />
+    <property name="libs.sjmc-ant-utils.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\org-netbeans-modules-j2me-cdc-project-sjmc.jar" />
+    <property name="libs.JMUnit4CLDC10.classpath" value="C:\Program Files\NetBeans 6.5\mobility8\modules\ext\jmunit4cldc10-1.2.1.jar" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="libs.facelets-1-1-14-myfaces.src" value="" />
+    <property name="default.javac.source" value="1.6" />
+    <property name="profiler.session.java.version" value="jdk16" />
+    <property name="libs.icefaces-runtime-172.javadoc" value="" />
+    <property name="debug-transport-by-os" value="dt_shmem" />
+    <property name="javac.compilerargs.jaxws" value="" />
+    <property name="sun.jnu.encoding" value="Cp1250" />
+    <property name="libs.MySQLDriver.src" value="" />
+    <property name="libs.ws-icefaces-runtime-172.javadoc" value="" />
+    <property name="libs.ant-contrib.maven-pom" value="" />
+    <property name="profiler.settings.obj.alloc.stack.sampling.depth" value="0" />
+    <property name="libs.woodstock-components.src" value="C:\Program Files\NetBeans 6.5.1\visualweb2\docs\webui-jsf-src.zip" />
+    <property name="libs.nokiadeployment.javadoc" value="" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="java.runtime.version" value="1.6.0_11-b03" />
+    <property name="libs.ejb3-persistence.javadoc" value="" />
+    <property name="libs.NetBeans MIDP Components.src" value="C:\Program Files\NetBeans 6.5\mobility8\sources\netbeans_midp_components_basic-src.zip" />
+    <property name="manifest.available+main.class+mkdist.available" value="true" />
+    <property name="libs.sjmc-ant-utils.javadoc" value="" />
+    <property name="profiler.session.class.path" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\appframework-1.0.3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\swing-worker-1.1.jar:build/classes" />
+    <property name="default.javac.target" value="1.6" />
+    <property name="libs.EclipseLink-GlassFish-V3.src" value="" />
+    <property name="libs.junit_4.classpath" value="C:\Program Files\NetBeans 6.5.1\platform9\modules\ext\junit-4.5.jar" />
+    <property name="user.timezone" value="Europe/Belgrade" />
+    <property name="libs.icefaces-runtime-180.classpath" value="C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\icefaces.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\icefaces-comps.jar" />
+    <property name="application.homepage" value="http://appframework.dev.java.net" />
+    <property name="libs.jsfsupport-designtime.src" value="C:\Program Files\NetBeans 6.5.1\visualweb2\docs\appbase-src.zip;C:\Program Files\NetBeans 6.5.1\visualweb2\docs\dataprovider-src.zip;C:\Program Files\NetBeans 6.5.1\visualweb2\docs\jsfcl-src.zip" />
+    <property name="libs.ant-contrib.src" value="" />
+    <property name="netbeans.dirs" value="C:\Program Files\NetBeans 6.5.1\nb6.5;C:\Program Files\NetBeans 6.5.1\ide10;C:\Program Files\NetBeans 6.5.1\java2;C:\Program Files\NetBeans 6.5.1\xml2;C:\Program Files\NetBeans 6.5.1\apisupport1;C:\Program Files\NetBeans 6.5.1\webcommon1;C:\Program Files\NetBeans 6.5.1\websvccommon1;C:\Program Files\NetBeans 6.5.1\enterprise5;C:\Program Files\NetBeans 6.5.1\profiler3;C:\Program Files\NetBeans 6.5.1\gsf1;C:\Program Files\NetBeans 6.5.1\visualweb2;C:\Program Files\NetBeans 6.5.1\soa2;C:\Program Files\NetBeans 6.5.1\harness;C:\Program Files\NetBeans 6.5.1\python1;C:\Program Files\NetBeans 6.5.1\maven1" />
+    <property name="libs.jstl.javadoc" value="" />
+    <property name="libs.exceptionhandler-runtime.src" value="" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_11\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="libs.savaje-ant-utils.maven-pom" value="" />
+    <property name="libs.semc-ant-utils.src" value="" />
+    <property name="libs.absolutelayout.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\AbsoluteLayout.jar" />
+    <property name="excludes" value="" />
+    <property name="libs.DataBindingME.javadoc" value="C:\Program Files\NetBeans 6.5\mobility8\modules\docs\netbeans_databindingme-api.zip" />
+    <property name="java.class.path" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\appframework-1.0.3.jar;C:\Program Files\NetBeans 6.5.1\java2\modules\ext\swing-worker-1.1.jar;C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable\build\classes;C:\Program Files\NetBeans 6.5.1\platform9\modules\ext\junit-4.5.jar;C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable\build\test\classes;C:\Program Files\NetBeans 6.5.1\java2\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 6.5.1\java2\ant\lib\ant.jar;C:\Program Files\NetBeans 6.5.1\java2\ant\patches\72080.jar" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="libs.facelets-1-1-14-el-api.src" value="" />
+    <property name="libs.ws-icefaces-runtime-180.maven-pom" value="" />
+    <property name="libs.webui-designtime.javadoc" value="C:\Program Files\NetBeans 6.5.1\visualweb2\docs\webui-doc.zip" />
+    <property name="libs.absolutelayout.src" value="" />
+    <property name="profiler.settings.instrument.empty.methods" value="false" />
+    <property name="libs.el-api.src" value="" />
+    <property name="libs.cdc-pp-awt-layout.maven-pom" value="" />
+    <property name="os.version" value="5.1" />
+    <property name="application.args" value="" />
+    <property name="libs.facelets-1-1-14.src" value="" />
+    <property name="libs.JMUnit4CLDC11.maven-pom" value="" />
+    <property name="profiler.session.java.executable" value="C:\Program Files\Java\jdk1.6.0_11\bin\java.exe" />
+    <property name="libs.toplink.javadoc" value="C:\Program Files\NetBeans 6.5.1\enterprise5\docs\javaee5-doc-api.zip" />
+    <property name="sun.desktop" value="windows" />
+    <property name="libs.nb_svg_midp_components.maven-pom" value="" />
+    <property name="libs.ricoh-ant-utils.javadoc" value="" />
+    <property name="libs.NetBeans MIDP Components PDA.maven-pom" value="" />
+    <property name="profiler.settings.settings.name" value="Analyze Performance" />
+    <property name="rave.version" value="2.0.0" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="libs.beans-binding.javadoc" value="C:\Program Files\NetBeans 6.5.1\java2\docs\beansbinding-1.2.1-doc.zip" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="profiler.info.jvmargs.agent" value="-agentpath:C:/Program Files/NetBeans 6.5.1/profiler3/lib/deployed/jdk16/windows/profilerinterface.dll=C:\Program Files\NetBeans 6.5.1\profiler3\lib,5140,10" />
+    <property name="libs.CopyLibs.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="ant.file.-profiler-impl" value="C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\TimeTable\nbproject\profiler-build-impl.xml" />
+    <property name="libs.jsf-1-2_09.src" value="" />
+    <property name="libs.icefaces-runtime-180.src" value="" />
+    <property name="libs.icefaces-runtime-172.src" value="" />
+    <property name="libs.spring-webmvc.maven-pom" value="" />
+    <property name="run.jvmargs" value="" />
+    <property name="jaxws.endorsed.dir" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\jaxws21\api:C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\jaxb\api" />
+    <property name="libs.ejb3-persistence.classpath" value="C:\Program Files\NetBeans 6.5.1\java2\modules\ext\hibernate\ejb3-persistence.jar" />
+    <property name="libs.spring-framework.javadoc" value="C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\JCStudent\my_libs\docs\spring\api;C:\Documents and Settings\Pawel\Moje dokumenty\NetBeansProjects\JCStudentOLD\my_libs\docs\spring" />
+    <property name="libs.DataBindingME-PIM.src" value="" />
+    <property name="libs.jquery.scriptpath" value="C:\Program Files\NetBeans 6.5.1\webcommon1\modules\ext\javascript\jquery-1.2.6.zip" />
+    <property name="libs.bdj-ant-utils.maven-pom" value="" />
+    <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files\NetBeans 6.5.1\ide10\modules\ext\postgresql-8.3-603.jdbc3.jar" />
+    <property name="libs.jsf12.maven-pom" value="" />
+    <property name="libs.junit.src" value="" />
+    <property name="main.class" value="ws.chojnacki.timetable.TimeTableApp" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="build.dir" value="build" />
+    <property name="libs.facelets-icefaces-172.javadoc" value="" />
+    <property name="ant.version" value="Apache Ant version 1.7.1 compiled on June 27 2008" />
+    <property name="file.encoding" value="Cp1250" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="platform.active" value="default_platform" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="profiler.settings.cpu.profiling.type" value="0" />
+    <property name="libs.icefaces-jsf12-runtime-support.classpath" value="C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\commons-beanutils.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\commons-collections.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\commons-digester.jar;C:\Program Files\NetBeans 6.5.1\enterprise5\modules\ext\jsf-1_2\commons-logging.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\FastInfoset.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\commons-fileupload.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\backport-util-concurrent.jar;C:\Documents and Settings\Pawel\.netbeans\6.5\modules\ext\icefaces\icefaces-1.8.0\krysalis-jCharts-1.0.0-alpha-1.jar" />
+  </properties>
+  <testcase classname="ws.chojnacki.timetable.data.EntityFactoryImplTest" name="testEntityFactoryImplRead" time="4.469" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[0ws.chojnacki.timetable.data.Line
+1ws.chojnacki.timetable.data.Line
+2ws.chojnacki.timetable.data.Line
+3ws.chojnacki.timetable.data.Line
+4ws.chojnacki.timetable.data.Line
+5ws.chojnacki.timetable.data.Line
+6ws.chojnacki.timetable.data.Line
+7ws.chojnacki.timetable.data.Line
+8ws.chojnacki.timetable.data.Line
+9ws.chojnacki.timetable.data.Line
+10ws.chojnacki.timetable.data.Line
+11ws.chojnacki.timetable.data.Line
+12ws.chojnacki.timetable.data.Line
+13ws.chojnacki.timetable.data.Line
+14ws.chojnacki.timetable.data.Line
+15ws.chojnacki.timetable.data.Line
+17ws.chojnacki.timetable.data.Line
+16ws.chojnacki.timetable.data.Line
+19ws.chojnacki.timetable.data.Line
+18ws.chojnacki.timetable.data.Line
+21ws.chojnacki.timetable.data.Line
+20ws.chojnacki.timetable.data.Line
+23ws.chojnacki.timetable.data.Line
+22ws.chojnacki.timetable.data.Line
+25ws.chojnacki.timetable.data.Line
+24ws.chojnacki.timetable.data.Line
+27ws.chojnacki.timetable.data.Line
+26ws.chojnacki.timetable.data.Line
+29ws.chojnacki.timetable.data.Line
+28ws.chojnacki.timetable.data.Line
+30ws.chojnacki.timetable.data.Line
+34ws.chojnacki.timetable.data.Line
+35ws.chojnacki.timetable.data.Line
+32ws.chojnacki.timetable.data.Line
+33ws.chojnacki.timetable.data.Line
+38ws.chojnacki.timetable.data.Line
+39ws.chojnacki.timetable.data.Line
+36ws.chojnacki.timetable.data.Line
+37ws.chojnacki.timetable.data.Line
+42ws.chojnacki.timetable.data.Line
+43ws.chojnacki.timetable.data.Line
+40ws.chojnacki.timetable.data.Line
+41ws.chojnacki.timetable.data.Line
+44ws.chojnacki.timetable.data.Line
+45ws.chojnacki.timetable.data.Line
+51ws.chojnacki.timetable.data.Line
+50ws.chojnacki.timetable.data.Line
+49ws.chojnacki.timetable.data.Line
+48ws.chojnacki.timetable.data.Line
+55ws.chojnacki.timetable.data.Line
+54ws.chojnacki.timetable.data.Line
+53ws.chojnacki.timetable.data.Line
+52ws.chojnacki.timetable.data.Line
+59ws.chojnacki.timetable.data.Line
+58ws.chojnacki.timetable.data.Line
+57ws.chojnacki.timetable.data.Line
+56ws.chojnacki.timetable.data.Line
+61ws.chojnacki.timetable.data.Line
+60ws.chojnacki.timetable.data.Line
+68ws.chojnacki.timetable.data.Line
+69ws.chojnacki.timetable.data.Line
+70ws.chojnacki.timetable.data.Line
+71ws.chojnacki.timetable.data.Line
+65ws.chojnacki.timetable.data.Line
+66ws.chojnacki.timetable.data.Line
+67ws.chojnacki.timetable.data.Line
+76ws.chojnacki.timetable.data.Line
+77ws.chojnacki.timetable.data.Line
+78ws.chojnacki.timetable.data.Line
+72ws.chojnacki.timetable.data.Line
+73ws.chojnacki.timetable.data.Line
+74ws.chojnacki.timetable.data.Line
+75ws.chojnacki.timetable.data.Line
+85ws.chojnacki.timetable.data.Line
+84ws.chojnacki.timetable.data.Line
+87ws.chojnacki.timetable.data.Line
+86ws.chojnacki.timetable.data.Line
+83ws.chojnacki.timetable.data.Line
+93ws.chojnacki.timetable.data.Line
+92ws.chojnacki.timetable.data.Line
+95ws.chojnacki.timetable.data.Line
+94ws.chojnacki.timetable.data.Line
+89ws.chojnacki.timetable.data.Line
+88ws.chojnacki.timetable.data.Line
+91ws.chojnacki.timetable.data.Line
+90ws.chojnacki.timetable.data.Line
+102ws.chojnacki.timetable.data.Line
+103ws.chojnacki.timetable.data.Line
+96ws.chojnacki.timetable.data.Line
+110ws.chojnacki.timetable.data.Line
+111ws.chojnacki.timetable.data.Line
+108ws.chojnacki.timetable.data.Line
+109ws.chojnacki.timetable.data.Line
+106ws.chojnacki.timetable.data.Line
+107ws.chojnacki.timetable.data.Line
+104ws.chojnacki.timetable.data.Line
+105ws.chojnacki.timetable.data.Line
+115ws.chojnacki.timetable.data.Line
+114ws.chojnacki.timetable.data.Line
+113ws.chojnacki.timetable.data.Line
+112ws.chojnacki.timetable.data.Line
+127ws.chojnacki.timetable.data.Line
+126ws.chojnacki.timetable.data.Line
+125ws.chojnacki.timetable.data.Line
+124ws.chojnacki.timetable.data.Line
+123ws.chojnacki.timetable.data.Line
+122ws.chojnacki.timetable.data.Line
+129ws.chojnacki.timetable.data.Line
+128ws.chojnacki.timetable.data.Line
+131ws.chojnacki.timetable.data.Line
+130ws.chojnacki.timetable.data.Line
+133ws.chojnacki.timetable.data.Line
+132ws.chojnacki.timetable.data.Line
+135ws.chojnacki.timetable.data.Line
+134ws.chojnacki.timetable.data.Line
+]]></system-err>
+</testsuite>
