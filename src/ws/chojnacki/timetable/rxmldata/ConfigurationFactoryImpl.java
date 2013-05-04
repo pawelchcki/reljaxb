@@ -11,9 +11,11 @@ package ws.chojnacki.timetable.rxmldata;
  */
 public class ConfigurationFactoryImpl implements ConfigurationFactory{
     private PersistanceManager persistanceManager;
+	private Config config;
+
     public PersistanceManager getPersistanceManager() {
         if (persistanceManager==null)
-            persistanceManager = new FilePersistanceManager();
+            persistanceManager = new FilePersistanceManager(Config.getGlobalConfig());
         return this.persistanceManager;
     }
 
@@ -24,5 +26,4 @@ public class ConfigurationFactoryImpl implements ConfigurationFactory{
     public void setPersistanceManager(PersistanceManager persistanceManager) {
         this.persistanceManager = persistanceManager;
     }
-
 }

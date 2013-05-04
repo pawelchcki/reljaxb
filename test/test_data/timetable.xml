@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="timetable.xsl" type="text/xsl"?>
+<timetable>
+    <line name="cztery" id="0"/>
+    <line name="Dwiadziescia" id="1"/>
+    <line name="cztery" id="2"/>
+    <line name="Dwiadziescia" id="3"/>
+    <line name="cztery" id="4"/>
+    <line name="Dwiadziescia" id="5"/>
+    <line name="cztery" id="6"/>
+    <line name="Dwiadziescia" id="7"/>
+    <line name="cztery" id="8"/>
+    <line name="Dwiadziescia" id="9"/>
+    <line name="cztery" id="10"/>
+    <line name="Dwiadziescia" id="11"/>
+    <line name="cztery" id="12"/>
+    <line name="Dwiadziescia" id="13"/>
+    <line name="cztery" id="14"/>
+    <line name="Dwiadziescia" id="15"/>
+    <line name="Dwiadziescia" id="17"/>
+    <line name="cztery" id="16"/>
+    <line name="Dwiadziescia" id="19"/>
+    <line name="cztery" id="18"/>
+    <line name="Dwiadziescia" id="21"/>
+    <line name="cztery" id="20"/>
+    <line name="Dwiadziescia" id="23"/>
+    <line name="cztery" id="22"/>
+    <line name="Dwiadziescia" id="25"/>
+    <line name="cztery" id="24"/>
+    <line name="Dwiadziescia" id="27"/>
+    <line name="cztery" id="26"/>
+</timetable>

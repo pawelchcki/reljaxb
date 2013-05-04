@@ -34,19 +34,17 @@ import ws.chojnacki.timetable.mapping.container.Stops;
 public class FilePersistanceManager implements PersistanceManager {
 
     private Map<Class, String> classFileNames;
-    private String filePath = "C:\\";
+    private Config config;
 
-    public FilePersistanceManager() {
-        String dupa = "saf";
-        /// bla bla bla read from persistance for now we have something else
+    public FilePersistanceManager(Config config) {
+        /// bla bla bla read from persistence for now we have something else
         //FIXME: THIS ;//
         classFileNames = new HashMap<Class, String>();
         classFileNames.put(Lines.class, "timetable.xml");
         classFileNames.put(Stops.class, "stops.xml");
         //classFileNames.put(Routes.class, "routes.xml");
         classFileNames.put(Distances.class, "distances.xml");
-
-
+        this.config = config;
     }
 
     public void saveElement(ContainerInterface jaxbElement) throws Exception {
@@ -61,7 +59,7 @@ public class FilePersistanceManager implements PersistanceManager {
             m.setProperty(m.JAXB_FORMATTED_OUTPUT, true);
            
 
-            File file = new File(this.filePath, getFileName(element.getClass()));
+            File file = new File(config.getFilePath(), getFileName(element.getClass()));
             m.setProperty(m.JAXB_FRAGMENT,Boolean.TRUE);
             
             BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), "UTF8"));
@@ -76,40 +74,6 @@ public class FilePersistanceManager implements PersistanceManager {
             bf.write(appendedString);
             m.marshal(element, bf);
             bf.close();
-            
-            /*RandomAccessFile raf = new RandomAccessFile(file, "rw");
-            raf.seek(0);
-            String line;
-            long lastPos =  raf.getFilePointer();
-            String testStr = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>";
-            String begining = "";
-            String appendedString = "\n<?xml-stylesheet href=\""+
-                            getFileName(element.getClass()).replace(".xml", ".xsl")
-                            +"\" type=\"text/xsl\"?>\n";
-            while ((line = raf.readLine())!=null){
-                
-                int strPos = line.indexOf(testStr);
-                
-                if (strPos>-1){
-                  //  raf.setLength(raf.length()+appendedString.length()+10);
-                    raf.seek(lastPos+strPos+testStr.length());
-                    raf.seek(0);
-                    String rest="";
-                    try{
-                    rest = raf.readUTF();
-                    } catch (EOFException ex){
-                        System.err.println(rest);
-                    }
-                    System.err.println(rest);
-                    raf.writeUTF(appendedString);
-                    raf.writeUTF(rest);
-                    break;
-                }
-
-                lastPos = raf.getFilePointer();
-            }
-            raf.close();*/
-        //file.close();
         }
     }
 
@@ -129,7 +93,7 @@ public class FilePersistanceManager implements PersistanceManager {
             Unmarshaller unm = linesContext.createUnmarshaller();
 
             
-            File file = new File(this.filePath, getFileName(element.getClass()));
+            File file = new File(config.getFilePath(), getFileName(element.getClass()));
             element.setIdentifiedEntities(
                     ((ContainerInterface)unm.unmarshal(file))
                     .getIdentifiedEntities());
@@ -137,14 +101,4 @@ public class FilePersistanceManager implements PersistanceManager {
 
 
     }
-
-    public void setFilePath(String filePath) {
-        this.filePath = filePath;
-    }
-
-    public String getFilePath() {
-        return filePath;
-    }
-    
-    
 }

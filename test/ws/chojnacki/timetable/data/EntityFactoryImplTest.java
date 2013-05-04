@@ -5,6 +5,8 @@
 package ws.chojnacki.timetable.data;
 
 import java.lang.reflect.Method;
+
+import ws.chojnacki.timetable.rxmldata.Config;
 import ws.chojnacki.timetable.rxmldata.ConfigurationFactoryImpl;
 import ws.chojnacki.timetable.rxmldata.IdentifiedEntity;
 import ws.chojnacki.timetable.rxmldata.EntityFactoryImpl;
@@ -63,9 +65,9 @@ public class EntityFactoryImplTest {
     }
     @Test
     public void testEntityFactoryImplRead() throws Exception {
-
+    	Config.getGlobalConfig().setFilePath("test/test_data");
         EntityFactoryImpl instance = new EntityFactoryImpl();
-
+       
         instance.use(Line.class, Stop.class, Distance.class);
 
         instance.load();
@@ -121,7 +123,7 @@ public class EntityFactoryImplTest {
         date.setHours(12);
         line.getDeparturesWeek().add(new Departure(date));
         instance.persist(new Distance(stopa, stopb, 2, 1));
-        
+ // FIXME: ok the test seems set up but where is checking the results + split thos tests, and remove polish strings       
         instance.persist(line);
         instance.save();
     }
